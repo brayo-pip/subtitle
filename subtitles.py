@@ -1,4 +1,4 @@
-from datetime import timedelta
+from datetime import timedelta 
 
 from babelfish import Language
 from subliminal import download_best_subtitles, region, save_subtitles, scan_videos
