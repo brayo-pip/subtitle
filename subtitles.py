@@ -13,7 +13,7 @@ rootdir = ""
 for i in args[1:]:
     rootdir += str(i)
     if " " == str(i):
-        continue
+        break
 
 
 for folder in os.listdir(rootdir):
